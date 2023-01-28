@@ -15,6 +15,9 @@ public class HomeWorkLesson9_1 {
         object3 = null;
         object4 = null;
         object5 = null;
-        object6 = null;       
+        object6 = null;
+        //2 Задание - Первая Программа: ошибка компиляции
+        //2 Задание - Вторая Программа: 5 2
+        //2 Задание - Третья Программа: 2 4 1 2
     }
 }
