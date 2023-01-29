@@ -6,17 +6,17 @@ public class HomeWorkLesson14
     {
         OUTER: for(int h = 0, m = 0, s = 0; h <= 6 ; h++) 
         {           
-            MIDDLE: for(m = 0; m < 60; m++)
-            {
             if (h>1 && m % 10 == 0) 
-                {
-                    break OUTER;
-                }                
+            {
+                break;
+            }            
+            MIDDLE: for(m = 0; m < 60; m++)
+            {             
                 INNER: for(s = 0; s < 60; s++) 
                 {
                     if (s*h>m) 
                     {
-                        continue INNER;
+                        continue;
                     }
                     System.out.println("Текущее время: " + h + ":" + m + ":" + s);
                 }                
